@@ -1,0 +1,39 @@
+baseURL = 'https://blog.nextorange.top/'
+languageCode = 'en-us'
+title = 'XCZDEV Tech Portfolio | QA & DevOps'
+theme = 'paper' # e.g., "blowfish" or "paper"
+
+# Highlighting settings for articles
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "dracula" # Modern, dark-mode friendly highlighting
+
+# Multi-language configuration
+[languages]
+  [languages.en]
+    languageName = 'English'
+    contentDir = 'content/en'
+    weight = 1
+    [languages.en.params]
+      description = "QA & DevOps Engineering Blog"
+
+  [languages.cn]
+    languageName = '中文'
+    contentDir = 'content/cn'
+    weight = 2
+    [languages.cn.params]
+      description = "XCZ QA DevOps 博客"
+
+# Menu configuration (appears in your header)
+[[menu.main]]
+  name = 'Articles'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 20
