@@ -1,0 +1,7 @@
+name = "Xincheng Zhang"
+headline = "QA & DevOps Enthusiast | Linux & Open Source"
+bio = "QA & DevOps engineer, Linux & Open Source enthusiast."
+links = [
+    { github = "https://github.com/xczdev" },
+    { email = "mailto:xincheng.zhang.dev@proton.me" }
+]
