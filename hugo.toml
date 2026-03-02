@@ -47,6 +47,7 @@ theme = 'blowfish' # e.g., "blowfish" or "paper"
   # Modern features for Blowfish
   colorScheme = "blues" # Or "ocean", "forest", "fire"
   defaultAppearance = "dark" # Very popular for tech sites
+  showLanguageSelector = true  # Enable language switcher
   showCodeCopyButton = true
   
   # This enables the "on the side" Table of Contents for your tech articles
