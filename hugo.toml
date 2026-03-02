@@ -40,7 +40,7 @@ theme = 'blowfish' # e.g., "blowfish" or "paper"
 
 [[menu.main]]
   name = 'About'
-  url = '/data/'
+  url = '/about/'
   weight = 20
 
 [params]
