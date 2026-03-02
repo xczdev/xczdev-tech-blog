@@ -3,13 +3,18 @@ languageCode = 'en-us'
 title = 'XCZDEV Tech Portfolio | QA & DevOps'
 theme = 'blowfish' # e.g., "blowfish" or "paper"
 
-# Highlighting settings for articles
+# Highlighting and markup settings
 [markup]
   [markup.highlight]
     codeFences = true
     guessSyntax = true
     lineNos = true
+    noClasses = false # Blowfish uses CSS classes for highlighting
     style = "dracula" # Modern, dark-mode friendly highlighting
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
 
 # Multi-language configuration
 [languages]
@@ -37,17 +42,6 @@ theme = 'blowfish' # e.g., "blowfish" or "paper"
   name = 'About'
   url = '/about/'
   weight = 20
-
-[markup]
-  [markup.highlight]
-    noClasses = false # Blowfish uses CSS classes for highlighting
-    codeFences = true
-    guessSyntax = true
-    lineNos = true
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 4
-    ordered = false
 
 [params]
   # Modern features for Blowfish
