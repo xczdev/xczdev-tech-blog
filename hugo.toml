@@ -1,7 +1,7 @@
 baseURL = 'https://blog.nextorange.top/'
 languageCode = 'en-us'
 title = 'XCZDEV Tech Portfolio | QA & DevOps'
-theme = 'paper' # e.g., "blowfish" or "paper"
+theme = 'blowfish' # e.g., "blowfish" or "paper"
 
 # Highlighting settings for articles
 [markup]
@@ -37,3 +37,25 @@ theme = 'paper' # e.g., "blowfish" or "paper"
   name = 'About'
   url = '/about/'
   weight = 20
+
+[markup]
+  [markup.highlight]
+    noClasses = false # Blowfish uses CSS classes for highlighting
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[params]
+  # Modern features for Blowfish
+  colorScheme = "blues" # Or "ocean", "forest", "fire"
+  defaultAppearance = "dark" # Very popular for tech sites
+  showCodeCopyButton = true
+  
+  # This enables the "on the side" Table of Contents for your tech articles
+  [params.article]
+    showTableOfContents = true
+    showRelatedPosts = true
